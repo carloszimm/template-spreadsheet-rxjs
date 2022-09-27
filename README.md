@@ -39,4 +39,4 @@ O objeto contido em `value` (para os casos mencionados acima) seguem o seguinte 
   params: [object]
 }
 ```
-O campo `operation` contém o tipo de operação solicitada (ADD, SUB, MUL ou DIV). Já o campo `params` contém um array de objetos seguindo o mesma esquema quando analisadas pelo método [`CellParser.parse`](#cellparser)
+O campo `operation` contém o tipo de operação solicitada (ADD, SUB, MUL ou DIV). Já o campo `params` contém um array de objetos seguindo o mesma esquema quando analisadas pelo método [`CellParser.parse`](#cellparser); isto é, cada parâmetro é analisado de forma recursiva chamando `parse`.
