@@ -7,7 +7,7 @@ O arquivo `spreadsheet.html` provê atualmente um spreadsheet com dimensões 26x
 > Importante: Todos os `valInput` possuem atributo `id` de acordo com sua posição na tabela. Isto serve por exemplo para facilitar a construção de dependências (criar referências) entre células.
 
 ## RxJS
-RxJS já está disponível no projeto e pode ser acessado da seguinte forma:
+RxJS já está disponível no projeto e pode ser acessado da seguinte forma (por exemplo):
 
 ```javascript
 const { from, fromEvent, of } = rxjs; //funções factory
