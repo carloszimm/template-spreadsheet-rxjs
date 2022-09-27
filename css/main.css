@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+td input {
+  width: 95%;
+  max-width: 95%;
+  border: 0;
+}
+
+td:nth-child(n+2),
+th:nth-child(n+2) {
+  width: 200px;
+  min-width: 200px;
+}
+
+th,
+td:nth-child(1) {
+  background-color: #f7f7f7;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  font-weight: bold;
+  max-width: 50px;
+  min-width: 20px;
+}
