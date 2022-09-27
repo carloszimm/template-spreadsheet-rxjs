@@ -48,4 +48,5 @@ O campo `operation` contém o tipo de operação solicitada (ADD, SUB, MUL ou DI
 
 ### Exemplos de Formatos Inválidos
 * "a", "add(1,A1)", "A29", "ADD()"
+
 Todas essas entradas resultariam em `value` com valor `"ERROR"` e método `isError()` retornando `true`.
